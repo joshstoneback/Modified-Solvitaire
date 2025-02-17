@@ -1,5 +1,8 @@
 # Solvitaire: A general solver for perfect-information solitaire games
 
+Note that this project is a modified version of the original Solvitaire project.
+The following is the original README.md file from the original project.
+
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![GitHub release](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=0.09)](https://github.com/thecharlesblake/Solvitaire/releases/tag/v0.09)
 
 ## Install
