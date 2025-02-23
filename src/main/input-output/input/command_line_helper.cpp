@@ -135,11 +135,11 @@ bool command_line_helper::parse(int argc, const char* argv[]) {
     } else {
         char cwd[PATH_MAX];  
         if (getcwd(cwd, sizeof(cwd)) != nullptr) {
-        input_folder = string(cwd) + "/" + "new_all_8s";
+        input_folder = string(cwd) + "/" + "four_a_three_2";
         } else {
             perror("getcwd() error");
         }
-        cerr << "Auto-selecting input folder as new_all_8s" << endl;
+        cerr << "Auto-selecting input folder" << endl;
     }
 
     if (vm.count("input-files")) {
@@ -195,7 +195,8 @@ bool command_line_helper::parse(int argc, const char* argv[]) {
     if (vm.count("timeout")) {
         timeout = vm["timeout"].as<uint64_t>();
     } else {
-        timeout = 300000; // 5 minutes in milliseconds
+        timeout = 60000; // 1 minute in milliseconds
+        //timeout = 300000; // 5 minutes in milliseconds
         //timeout = 604800000; // 1 week in milliseconds
     }
 
