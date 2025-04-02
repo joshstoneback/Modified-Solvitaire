@@ -135,7 +135,7 @@ bool command_line_helper::parse(int argc, const char* argv[]) {
     } else {
         char cwd[PATH_MAX];  
         if (getcwd(cwd, sizeof(cwd)) != nullptr) {
-        input_folder = string(cwd) + "/" + "four_a_three_2";
+        input_folder = string(cwd) + "/" + "four_q_three_10";
         } else {
             perror("getcwd() error");
         }
