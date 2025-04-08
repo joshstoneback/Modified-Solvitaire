@@ -2,7 +2,7 @@
 
 ## Documentation
 
-Full documentation for Solvitaire can be found [here](https://github.com/joshstoneback/Modified-Solvitaire).
+Full documentation for Solvitaire can be found [here](https://github.com/thecharlieblake/Solvitaire).
 This documentation focuses on running the program to iterate over a folder that contains JSON files, then output statistics to a csv file.
 
 ## Edit 
