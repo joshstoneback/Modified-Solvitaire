@@ -1,5 +1,9 @@
 # Modified Solvitaire: A modified version of Solvitaire optimized for specified starting configurations
 
+## Full Paper
+
+The paper containing full information on my implementation and analysis of different starting configurations can be found [here](https://github.com/joshstoneback/Modified-Solvitaire/blob/main/Senior%20Thesis%20Final%20Draft.pdf) 
+
 ## Documentation
 
 Full documentation for Solvitaire can be found [here](https://github.com/thecharlieblake/Solvitaire).
